@@ -16,4 +16,4 @@ List func(list_num){
     x.add(k);
   }return x;
 }
-void main() {print(func([5,6,3,4,4,6,2,]));}
+void main() {print(func([5,6,3,4,8,6,2,]));}
