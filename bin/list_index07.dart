@@ -6,4 +6,14 @@
     Returns:
         list: return answer
 */
+List func(List list1){
+  int x= -1;
+  bool m=false;
+  while(x<list1.length-1){
+    x+=1;
+    if(list1[x]==0){
+      list1[x]=m;
+    }
+  }
+}
 void main() {}
