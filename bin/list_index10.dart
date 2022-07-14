@@ -5,5 +5,15 @@
         list_num (list): parameter
     Returns:
         list: return answer
-*/
-void main() {}
+*/import 'dart:math';
+List func(list_num){
+  int k=0;
+  List x=[];
+  if(list_num.first<list_num.last){
+    k=list_num.last;
+  }else {
+    k=list_num.first;
+    x.add(k);
+  }return x;
+}
+void main() {print(func([5,6,3,4,4,6,2,]));}
