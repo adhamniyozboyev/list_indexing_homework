@@ -14,6 +14,6 @@ List func(List list1){
     if(list1[x]==0){
       list1[x]=m;
     }
-  }
+  }return list1;
 }
 void main() {}
